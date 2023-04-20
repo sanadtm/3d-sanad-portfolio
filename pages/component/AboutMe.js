@@ -1,7 +1,11 @@
+/** @format */
+
+import styled from "styled-components";
+
 export default function AboutMe() {
-    return (
-        <>
-            <h1>About</h1>
-        </>
-    );
+	return (
+		<>
+			<div className="h-screen bg-lime-500">About</div>
+		</>
+	);
 }

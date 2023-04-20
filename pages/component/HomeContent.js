@@ -1,7 +1,11 @@
+/** @format */
+
+import styled from "styled-components";
+
 export default function HomeContent() {
-    return (
-        <>
-            <h1>Home</h1>
-        </>
-    );
+	return (
+		<>
+			<div className="h-screen bg-yellow-400">Home</div>
+		</>
+	);
 }
