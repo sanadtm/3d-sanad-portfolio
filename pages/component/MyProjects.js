@@ -1,11 +1,9 @@
 /** @format */
 
-import styled from "styled-components";
-
 export default function MyProjects() {
 	return (
 		<>
-			<div className="h-screen bg-yellow-400">MyProjects</div>
+			<div className="snap-center text-white shrink-0 h-screen  ">My Projects</div>
 		</>
 	);
 }

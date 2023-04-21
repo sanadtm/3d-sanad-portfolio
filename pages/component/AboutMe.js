@@ -5,7 +5,7 @@ import styled from "styled-components";
 export default function AboutMe() {
 	return (
 		<>
-			<div className="h-screen bg-lime-500">About</div>
+			<div className="snap-center text-white shrink-0 h-screen">About</div>
 		</>
 	);
 }

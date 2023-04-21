@@ -1,11 +1,12 @@
 /** @format */
 
-import styled from "styled-components";
-
+import NavBar from "./NavBar";
 export default function HomeContent() {
 	return (
 		<>
-			<div className="h-screen bg-yellow-400">Home</div>
+			<div className="snap-center text-white shrink-0  h-screen  ">
+				<NavBar />
+			</div>
 		</>
 	);
 }

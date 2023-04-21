@@ -3,7 +3,7 @@
 export default function Footer() {
 	return (
 		<>
-			<div className="h-screen bg-blue-500">Footer</div>
+			<div className="snap-center text-white shrink-0 h-screen">Footer</div>
 		</>
 	);
 }
