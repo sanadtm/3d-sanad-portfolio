@@ -5,9 +5,9 @@ import styled from "styled-components";
 export default function NavBar() {
 	return (
 		<>
-			<div className="text-white w-full justify-center">
+			<div className="text-white w-full justify-center flex flex-row gap-x-24 ">
 				<Image width={100} height={100} src="/img/logo.png" />
-				<ul>
+				<ul className="flex flex-row">
 					<li>Home</li>
 					<li>About Me</li>
 					<li>My Projects</li>
