@@ -10,7 +10,7 @@ export default function HomeContent() {
                         <div className="gap-10">
                             <div>
                                 <h1 className="text-6xl font-bold  subpixel-antialiased animate-bounce">
-                                    Think.Make.Solve.
+                                    Think.Create.Design.
                                 </h1>
                             </div>
                             <div className="flex">
@@ -24,18 +24,13 @@ export default function HomeContent() {
                             <div className="text-lg font-bold text-yellow-400  subpixel-antialiased">
                                 Digital Experience
                             </div>
-                            <button className=" bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-1 px-4 border border-white-700 rounded">
+                            <button className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-1 px-4 border border-white-700 rounded">
                                 Learn More
                             </button>
                         </div>
-                        <div>
+                        <div className="">
                             {/* 3d Model */}
-                            <Image
-                                className="gap-10 animate-[bounce_10s_infinite]"
-                                width={600}
-                                height={600}
-                                src="/img/moon.png"
-                            />
+                            <Image className="animate-jump" width={500} height={500} src="/img/moon.png" />
                         </div>
                     </div>
                 </div>
