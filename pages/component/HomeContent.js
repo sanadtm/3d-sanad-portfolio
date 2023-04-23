@@ -3,7 +3,7 @@ import NavBar from "./NavBar";
 export default function HomeContent() {
     return (
         <>
-            <div className="snap-center text-white shrink-0  h-screen  ">
+            <div id="home" className="snap-center text-white shrink-0  h-screen  ">
                 <NavBar />
                 <div className="text-white w-6/6 justify-center  items-center flex p-4 flex ">
                     <div className="text-white w-5/6 justify-between  items-center flex ">

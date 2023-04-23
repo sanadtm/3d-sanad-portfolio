@@ -12,12 +12,32 @@ export default function NavBar() {
                         className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300 "
                         src="/img/logo-sanad.png"
                     />
-                    <div className="text-white items-center flex gap-25 ">
+                    <div className="text-white items-center flex gap-25   ">
                         <ul className="flex font-bold gap-10 ">
-                            <li>Home</li>
-                            <li>About Me</li>
-                            <li>My Projects</li>
-                            <li>Contact Me</li>
+                            <Link
+                                className="transition ease-in-out delay-50  hover:-translate-y-1 hover:text-yellow-300 hover:scale-110 duration-300  "
+                                href={"#home"}
+                            >
+                                <li>Home</li>
+                            </Link>
+                            <Link
+                                className="transition ease-in-out delay-50  hover:-translate-y-1 hover:text-yellow-300 hover:scale-110 duration-300  "
+                                href={"#about"}
+                            >
+                                <li>About Me</li>
+                            </Link>
+                            <Link
+                                className="transition ease-in-out delay-50  hover:-translate-y-1 hover:text-yellow-300 hover:scale-110 duration-300  "
+                                href={"#myprojects"}
+                            >
+                                <li>My Projects</li>
+                            </Link>
+                            <Link
+                                className="transition ease-in-out delay-50  hover:-translate-y-1 hover:text-yellow-300 hover:scale-110 duration-300  "
+                                href={"#contactme"}
+                            >
+                                <li>Contact Me</li>
+                            </Link>
                         </ul>
                     </div>
 

@@ -2,7 +2,8 @@ import Image from "next/image";
 export default function MyProjects() {
     return (
         <>
-            <div className="snap-center text-white shrink-0  h-screen  ">
+            <div id="myprojects" className="snap-center text-white shrink-0  h-screen  ">
+                <div className="p-16 w-full text-white"></div>
                 <div className="text-white w-6/6 justify-center  items-center flex p-4 flex ">
                     <div className="text-white w-5/6 justify-between  items-center flex ">
                         <div className="gap-10">
