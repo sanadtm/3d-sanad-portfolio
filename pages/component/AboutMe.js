@@ -17,7 +17,7 @@ export default function AboutMe() {
                                     -What i Do
                                 </div>
                             </div>
-                            <div className="text-lg py-2  ont-bold subpixel-antialiased">
+                            <div className="text-lg py-2  font-bold subpixel-antialiased">
                                 I Enjoy Creating Delightful, human-centered
                             </div>
                             <div className="text-lg  py-2 font-bold text-yellow-400  subpixel-antialiased">
@@ -29,7 +29,7 @@ export default function AboutMe() {
                         </div>
 
                         {/* 3d Model */}
-                        <Image className="animate-jump" width={400} height={400} src="/img/sanad1.png" />
+                        <Image className="animate-jump" width={400} height={400} src="/img/moon.png" />
                     </div>
                 </div>
             </div>
