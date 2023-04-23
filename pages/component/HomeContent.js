@@ -24,14 +24,13 @@ export default function HomeContent() {
                             <div className="text-lg font-bold text-yellow-400  subpixel-antialiased">
                                 Digital Experience
                             </div>
-                            <button className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-1 px-4 border border-white-700 rounded">
+                            <button className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-1 px-4 border border-black-700 rounded">
                                 Learn More
                             </button>
                         </div>
-                        <div className="">
-                            {/* 3d Model */}
-                            <Image className="animate-jump" width={500} height={500} src="/img/moon.png" />
-                        </div>
+
+                        {/* 3d Model */}
+                        <Image className="animate-jump" width={500} height={500} src="/img/moon.png" />
                     </div>
                 </div>
             </div>

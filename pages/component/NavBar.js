@@ -4,9 +4,14 @@ import styled from "styled-components";
 export default function NavBar() {
     return (
         <>
-            <div className="text-white w-6/6 justify-center  items-center flex p-4 ">
+            <div className="text-white w-6/6 justify-center   items-center flex p-4 ">
                 <div className="text-white w-5/6 justify-between  items-center flex ">
-                    <Image width={250} height={400} src="/img/logo-sanad.png" />
+                    <Image
+                        width={250}
+                        height={400}
+                        className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300 "
+                        src="/img/logo-sanad.png"
+                    />
                     <div className="text-white items-center flex gap-25 ">
                         <ul className="flex font-bold gap-10 ">
                             <li>Home</li>
@@ -18,7 +23,7 @@ export default function NavBar() {
 
                     <div className="text-white justify-center  items-center flex gap-5 ">
                         <Image className="gap-10 cursor-pointer " width={30} height={10} src="/img/search.png" />
-                        <button className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 border border-white-700 rounded">
+                        <button className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 border border-black-700 rounded">
                             My Resume
                         </button>
                     </div>

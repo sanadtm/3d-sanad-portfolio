@@ -9,11 +9,16 @@ module.exports = {
             },
             animation: {
                 jump: "jump 10s ease-in-out infinite",
+                bounce: "bounce 2s ease-in-out infinite",
             },
             keyframes: {
                 jump: {
-                    "0%, 100%": { transform: "rotate(-3deg)" },
-                    "50%": { transform: "rotate(3deg)" },
+                    "0%, 100%": { transform: "translateY(-10%)" },
+                    "50%": { transform: "rotate(6deg)" },
+                },
+                bounce: {
+                    "0%, 100%": { transform: "translateY(-35%)" },
+                    "50%": { transform: "translateY(25%)" },
                 },
             },
         },
