@@ -76,9 +76,7 @@ export default function HomeContent() {
                         <div>
                             {/* 3d Model */}
                             <Image
-                                data-aos="fade-down"
-                                data-aos-easing="linear"
-                                data-aos-duration="2500"
+                                data-aos="fade-left"
                                 className="animate-jump"
                                 width={500}
                                 height={500}
