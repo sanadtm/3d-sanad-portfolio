@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Image from "next/image";
 import NavBar from "./NavBar";
 export default function HomeContent() {
@@ -27,10 +28,46 @@ export default function HomeContent() {
                             <button className="transition  ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-1 px-4 border border-black-700 rounded">
                                 Learn More
                             </button>
+                            <div className="items-center py-6 flex gap-5">
+                                <Link href="https://github.com/sanadtm" target="_blank" rel="noopener noreferrer">
+                                    <Image
+                                        className="transition  ease-in-out delay-50  hover:-translate-y-1 hover:scale-110  duration-300"
+                                        width={50}
+                                        height={50}
+                                        src="/img/white-github.png"
+                                    />
+                                </Link>
+                                <Link
+                                    href="https://www.instagram.com/sanadtm"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <Image
+                                        className="transition  ease-in-out delay-50  hover:-translate-y-1 hover:scale-110  duration-300"
+                                        width={50}
+                                        height={50}
+                                        src="/img/insta.png"
+                                    />
+                                </Link>
+                                <Link
+                                    href="https://www.linkedin.com/in/sanad-thapa-931666112"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <Image
+                                        className="transition  ease-in-out delay-50  hover:-translate-y-1 hover:scale-110  duration-300"
+                                        width={50}
+                                        height={50}
+                                        src="/img/linkin.png"
+                                    />
+                                </Link>
+                            </div>
                         </div>
 
-                        {/* 3d Model */}
-                        <Image className="animate-jump" width={500} height={500} src="/img/moon.png" />
+                        <div>
+                            {/* 3d Model */}
+                            <Image className="animate-jump" width={500} height={500} src="/img/sanad1.png" />
+                        </div>
                     </div>
                 </div>
             </div>
