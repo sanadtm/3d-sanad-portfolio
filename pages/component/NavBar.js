@@ -4,7 +4,11 @@ import styled from "styled-components";
 export default function NavBar() {
     return (
         <>
-            <div className="text-white w-6/6 justify-center   items-center flex p-4 ">
+            <div
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                className="text-white w-6/6 justify-center   items-center flex p-4 "
+            >
                 <div className="text-white w-5/6 justify-between  items-center flex ">
                     <Image
                         width={250}

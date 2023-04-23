@@ -10,25 +10,34 @@ export default function HomeContent() {
                     <div className="text-white w-5/6 justify-between  items-center flex ">
                         <div className="py-10 ">
                             <div>
-                                <h1 className="text-6xl font-bold py-2 subpixel-antialiased animate-bounce">
+                                <h1
+                                    data-aos="zoom-in-right"
+                                    className="text-6xl font-bold py-2 subpixel-antialiased animate-bounce"
+                                >
                                     Think.Create.Design.
                                 </h1>
                             </div>
-                            <div className="flex">
+                            <div data-aos="zoom-in-right" className="flex">
                                 <div className="text-4xl font-bold py-2 text-yellow-400  subpixel-antialiased">
                                     -What i Do
                                 </div>
                             </div>
-                            <div className="text-lg font-bold py-1 subpixel-antialiased">
+                            <div data-aos="zoom-out-right" className="text-lg font-bold py-1 subpixel-antialiased">
                                 I Enjoy Solving Problems and Creating Delightful, User-centered
                             </div>
-                            <div className="text-xl py-1 font-bold text-yellow-400  subpixel-antialiased">
+                            <div
+                                data-aos="zoom-out-right"
+                                className="text-xl py-1 font-bold text-yellow-400  subpixel-antialiased"
+                            >
                                 Digital Experience
                             </div>
-                            <button className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 bg-yellow-500 text-white font-bold py-1 px-4 border border-black-700 rounded">
+                            <button
+                                data-aos="fade-down-right"
+                                className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 bg-yellow-500 text-white font-bold py-1 px-4 border border-black-700 rounded"
+                            >
                                 Learn More
                             </button>
-                            <div className="items-center py-6 flex gap-5">
+                            <div data-aos="fade-down-right" className="items-center py-6 flex gap-5">
                                 <Link href="https://github.com/sanadtm" target="_blank" rel="noopener noreferrer">
                                     <Image
                                         className="transition  ease-in-out delay-50  hover:-translate-y-1 hover:scale-110  duration-300"
@@ -66,7 +75,15 @@ export default function HomeContent() {
 
                         <div>
                             {/* 3d Model */}
-                            <Image className="animate-jump" width={500} height={500} src="/img/sanad1.png" />
+                            <Image
+                                data-aos="fade-down"
+                                data-aos-easing="linear"
+                                data-aos-duration="2500"
+                                className="animate-jump"
+                                width={500}
+                                height={500}
+                                src="/img/sanad1.png"
+                            />
                         </div>
                     </div>
                 </div>
