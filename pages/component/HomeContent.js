@@ -23,12 +23,14 @@ export default function HomeContent() {
 									-What i Do
 								</div>
 							</div>
-							<div data-aos="zoom-out-right" className="text-lg font-bold py-1 subpixel-antialiased">
+							<div
+								data-aos="zoom-out-right"
+								className=" animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent  font-black text-lg text-2xl  font-bold py-1 subpixel-antialiased">
 								I Enjoy Solving Problems and Creating Delightful, User-centered
 							</div>
 							<div
 								data-aos="zoom-out-right"
-								className="text-xl py-1 font-bold text-yellow-400  subpixel-antialiased">
+								className="text-2xl animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black py-1 font-bold   subpixel-antialiased">
 								Digital Experience
 							</div>
 							<button
