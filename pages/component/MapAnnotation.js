@@ -8,12 +8,12 @@ const MapAnnotationComponent = () => {
 		<ComposableMap
 			projection="geoAzimuthalEqualArea"
 			projectionConfig={{
-				rotate: [-10.0, -52.0, 0],
+				rotate: [45.523064, -122.676483, 0],
 				center: [-5, -3],
 				scale: 1100,
 			}}
 			style={{ with: "100%", height: "100%" }}>
-			<Geographies geography="/features.json" fill="#FCAE1E" stroke="#FFFFFF" strokeWidth={2}>
+			<Geographies geography="/features.json" fill="#FF9F00" stroke="#FFFFFF" strokeWidth={2}>
 				{({ geographies }) => geographies.map((geo) => <Geography key={geo.rsmKey} geography={geo} />)}
 			</Geographies>
 			<Annotation
