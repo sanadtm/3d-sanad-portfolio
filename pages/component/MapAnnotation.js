@@ -8,7 +8,7 @@ const MapAnnotationComponent = () => {
 		<ComposableMap
 			projection="geoAzimuthalEqualArea"
 			projectionConfig={{
-				rotate: [45.523064, -122.676483, 0],
+				rotate: [-10.0, -52.0, 0],
 				center: [-5, -3],
 				scale: 1100,
 			}}
